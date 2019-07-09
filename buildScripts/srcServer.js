@@ -1,14 +1,14 @@
 var express = require('express');
 var path = require('path');
 var open = require('open');
-var webpack = require('webpack');
-var config = require('../webpack.config.dev');
+//var webpack = require('webpack');
+//var config = require('../webpack.config.dev');
 
 /* eslint-disable no-console */
 
 const port = 3000;
 const app = express ();
-const compiler = webpack(config);
+//const compiler = webpack(config);
 
 //app.use(require('webpack-dev-middleware')(compiler, {
   //noInfo: true,
