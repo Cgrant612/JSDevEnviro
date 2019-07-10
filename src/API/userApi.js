@@ -1,4 +1,5 @@
 import 'whatwg-fetch';
+//import {get} from 'http';
 
 export function getUsers() {
   return get('users');
